@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <footer>
             <small>&copy; {currentDate.getFullYear()}. Copyright by Svetlozar Antonov</small>
-            <p>Version <b>1.5</b></p>
+            <p>Version <b>1.1</b></p>
         </footer>
     )
 }
