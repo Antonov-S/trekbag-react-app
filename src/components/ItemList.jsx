@@ -3,8 +3,7 @@ import { useState } from "react";
 import { initialItems } from "../lib/constants";
 
 
-export default function ItemList() {
-    const [items, setItems] = useState(initialItems);
+export default function ItemList({ items }) {
 
     return (
         <ul>
