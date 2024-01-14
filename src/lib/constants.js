@@ -2,7 +2,7 @@ export const initialItems = [
   {
     id: 1,
     name: "good mood",
-    packed: false
+    packed: true
   },
   {
     id: 2,
